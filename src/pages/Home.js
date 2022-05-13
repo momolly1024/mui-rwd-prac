@@ -4,7 +4,11 @@ import Grid from '@mui/material/Grid'
 import LeftSide from '../components/LeftSide'
 import RightSide from '../components/RightSide'
 
-const divStyle = { margin: '8px' }
+const divStyle = {
+    margin: '8px',
+    paddingBottom: '2.5rem',
+    // height:'85vh'
+}
 
 const Home = () => {
     return (
